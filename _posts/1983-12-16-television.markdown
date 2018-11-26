@@ -1,11 +1,10 @@
 ---
-title: Television and later films
+title: UX
 date: 1983-12-16 01:00:00 Z
 categories:
 - history
 tags:
 - mickey
-layout: post
 excerpt: Mickey first appeared animated in color in Parade of the Award Nominees in
   1932, however the film strip was...
 image:
@@ -14,6 +13,7 @@ image:
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: false
+layout: post
 ---
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Mickey_Mouse)
