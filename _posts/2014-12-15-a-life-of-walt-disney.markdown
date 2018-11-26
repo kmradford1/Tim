@@ -1,5 +1,5 @@
 ---
-title: Print
+title: Intramural Sports Posters
 date: 2014-12-15 01:00:00 Z
 categories:
 - history
