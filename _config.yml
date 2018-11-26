@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Syntax highlighting
 markdown:            redcarpet
@@ -24,29 +25,66 @@ baseurl_javascripts: '/assets/javascripts/'
 icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
 disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
-author:
-  name:           	 your name
-  url:            	 your site url
-  facebook:          username
-  twitter:           username
-  google_plus:       username
-  linkedin:          username
-  dribbble:          username
-  pinterest:         username
-  kiva:              username
-
-fb_admins:           your facebook profile id
-fb_appid:            your facebook app id
-
-# Server
-destination:      	 ./_site
-exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
-port:             	 9001
-
+=======
+---
+title: site title
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "default"
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: default
+markdown: redcarpet
+highlighter: pygments
+permalink: "/:title"
+relative_permalinks: true
+locale: your locale language
+name: site name
+tagline: tagline
+description: description
+url: site url
+rss: rss feed url
+baseurl: "/"
+baseurl_posts_img: "/assets/images/posts/"
+baseurl_featured_img: "/assets/images/hero/"
+baseurl_featured_thumbnail: "/assets/images/thumbnail/"
+baseurl_javascripts: "/assets/javascripts/"
+icon: your site icon path
+disqus: disqus_shortname
+>>>>>>> 4f05a3bb69b90e9a978025dfda32a14f4b051fda
+author:
+  name: your name
+  url: your site url
+  facebook: username
+  twitter: username
+  google_plus: username
+  linkedin: username
+  dribbble: username
+  pinterest: username
+  kiva: username
+fb_admins: your facebook profile id
+fb_appid: your facebook app id
+destination: "./_site"
+exclude:
+- ".editorconfig"
+- ".gitignore"
+- bower.json
+- composer.json
+- CONTRIBUTING.md
+- CNAME
+- LICENSE
+- Gruntfile.js
+- package.json
+- node_modules
+- README.md
+- sass
+- haml
+port: 9001
