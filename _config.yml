@@ -52,3 +52,13 @@ exclude:
 - sass
 - haml
 port: 9001
+---
+title: site title
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
