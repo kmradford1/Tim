@@ -1,11 +1,10 @@
 ---
-title: Mickey Mouse
+title: Digital
 date: 2014-11-28 01:00:00 Z
 categories:
 - history
 tags:
 - mickey
-layout: post
 last_modified_at: 2014-11-28 01:00:00 Z
 excerpt: Mickey Mouse is a funny animal cartoon character and the official mascot
   of...
@@ -15,6 +14,7 @@ image:
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: false
+layout: post
 ---
 
 Source: [Wikipedia](https://en.wikipedia.org/wiki/Mickey_Mouse)
